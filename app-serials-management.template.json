@@ -5,7 +5,7 @@
   "platform": "complete",
   "dependencies": [
     {
-      "name": "app-platform-complete",
+      "name": "app-platform-minimal",
       "version": "^2.1.0-SNAPSHOT"
     }
   ],
