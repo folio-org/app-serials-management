@@ -7,12 +7,12 @@
   <artifactId>app-serials-management</artifactId>
   <groupId>org.folio</groupId>
   <description>Application Descriptor Repository for the FOLIO Serials Management application</description>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <properties>
     <project.name>app-serials-management</project.name>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <folio-application-generator.version>1.2.0-SNAPSHOT</folio-application-generator.version>
+    <folio-application-generator.version>1.1.0</folio-application-generator.version>
     <maven-release-plugin.version>3.1.1</maven-release-plugin.version>
     <templatePath>${basedir}/${project.name}.template.json</templatePath>
   </properties>
