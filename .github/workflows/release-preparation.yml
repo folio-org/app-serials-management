@@ -23,6 +23,16 @@ on:
         required: false
         type: boolean
         default: false
+      need_pr:
+        description: 'Require PR for version updates on this branch'
+        required: false
+        type: boolean
+        default: true
+      prerelease_mode:
+        description: 'Module version constraints: "false" (release only), "true" (include snapshots), "only" (snapshots only)'
+        required: false
+        type: string
+        default: 'false'
       dry_run:
         description: 'Perform dry run without making changes'
         required: false
