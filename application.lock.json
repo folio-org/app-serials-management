@@ -1,6 +1,6 @@
 {
   "name": "app-serials-management",
-  "version": "1.0.0-SNAPSHOT.100000000000001",
+  "version": "1.0.0-SNAPSHOT.100200000000566",
   "description": "Application Descriptor Repository for the FOLIO Serials Management application",
   "platform": "complete",
   "dependencies": [
@@ -12,13 +12,13 @@
   "modules": [
     {
       "name": "mod-serials-management",
-      "version": "2.1.0-SNAPSHOT.166"
+      "version": "2.1.0-SNAPSHOT.167"
     }
   ],
   "uiModules": [
     {
       "name": "folio_serials-management",
-      "version": "2.1.109900000000813"
+      "version": "2.1.1099000000000837"
     }
   ]
 }
