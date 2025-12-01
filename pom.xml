@@ -12,7 +12,7 @@
   <properties>
     <project.name>app-serials-management</project.name>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <folio-application-generator.version>1.2.0-SNAPSHOT</folio-application-generator.version>
+    <folio-application-generator.version>1.3.0-SNAPSHOT</folio-application-generator.version>
     <maven-release-plugin.version>3.1.1</maven-release-plugin.version>
     <templatePath>${basedir}/${project.name}.template.json</templatePath>
   </properties>
