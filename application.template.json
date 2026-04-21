@@ -6,22 +6,22 @@
   "dependencies": [
     {
       "name": "app-platform-minimal",
-      "version": "^2.1.0-SNAPSHOT",
-      "preRelease": "only"
+      "version": "^VERSION_^2.1.0-SNAPSHOT",
+      "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-serials-management",
-      "version": "latest",
-      "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     }
   ],
   "uiModules": [
     {
       "name": "folio_serials-management",
-      "version": "latest",
-      "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     }
   ]
 }
