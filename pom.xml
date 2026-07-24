@@ -12,7 +12,7 @@
   <properties>
     <project.name>app-serials-management</project.name>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <folio-application-generator.version>1.4.0-SNAPSHOT</folio-application-generator.version>
+    <folio-application-generator.version>1.5.0-SNAPSHOT</folio-application-generator.version>
     <maven-release-plugin.version>3.1.1</maven-release-plugin.version>
     <templatePath>${basedir}/application.template.json</templatePath>
   </properties>
@@ -32,12 +32,22 @@
         </executions>
         <configuration>
           <templatePath>${templatePath}</templatePath>
+          <validateArtifacts>true</validateArtifacts>
+          <validateFallbackArtifacts>false</validateFallbackArtifacts>
+          <awsRegion>us-west-2</awsRegion>
           <moduleRegistries>
             <registry>
               <type>okapi</type>
               <url>https://folio-registry.dev.folio.org</url>
             </registry>
           </moduleRegistries>
+          <fallbackModuleRegistries>
+            <registry>
+              <type>s3</type>
+              <bucket>eureka-application-registry</bucket>
+              <path>descriptors</path>
+            </registry>
+          </fallbackModuleRegistries>
         </configuration>
       </plugin>
       <plugin>
